@@ -1,0 +1,6 @@
+# Holds this cart's device secret — provisioning credentials, not source.
+.env
+
+# The last pushed state and the dish photos copied onto the cart. Rebuilt from
+# the next push; nothing here is worth keeping in the history.
+.cache/
